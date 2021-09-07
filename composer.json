@@ -1,0 +1,31 @@
+{
+    "name": "semivan/my-russian-tax",
+    "description": "Создание чеков для самозанятых в МойНалог lknpd.nalog.ru",
+    "type": "library",
+	"license": "MIT",
+	"minimum-stability": "dev",
+    "keywords": [
+		"nalog.ru",
+        "lknpd.nalog.ru",
+        "налог",
+        "самозанятый",
+		"api",
+		"client",
+		"library"
+	],
+    "authors": [
+        {
+            "name": "Ivan Semenikhin",
+            "email": "semeninhin.ivan@gmail.com"
+        }
+    ],
+    "require": {
+		"php": "^7.1",
+        "symfony/http-client": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyRussianTax\\": "src/"
+        }
+    }
+}
